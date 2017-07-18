@@ -1,10 +1,8 @@
 package org.launchcode.models.data;
 
-import javafx.geometry.Pos;
-import org.launchcode.models.*;
 
+import org.launchcode.models.*;
 import java.util.ArrayList;
-import java.util.HashMap;
 
 /**
  * Created by LaunchCode
@@ -45,7 +43,7 @@ public class JobData {
         return jobs;
     }
 
-
+    //enum represents the type of search we wanna do
     public ArrayList<Job> findByColumnAndValue(JobFieldType column, String value) {
 
         ArrayList<Job> matchingJobs = new ArrayList<>();

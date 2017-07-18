@@ -5,6 +5,9 @@ package org.launchcode.models;
  */
 public enum JobFieldType {
 
+    //something a user might do
+    //represents the certain things we can search by
+
     EMPLOYER ("Employer"),
     LOCATION ("Location"),
     CORE_COMPETENCY ("Skill"),
